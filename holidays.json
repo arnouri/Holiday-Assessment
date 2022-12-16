@@ -1,0 +1,32 @@
+{
+ "holidays" : [
+     {
+         "name": "Margaret Thatcher Day",
+         "date": "2021-01-10"
+     },
+     {
+         "name": "World Sketchnote Day",
+         "date": "2021-01-11"
+     },
+     {
+         "name": "Zanzibar Revolution Day",
+         "date": "2021-01-12"
+     },
+     {
+         "name": "National Rubber Ducky Day",
+         "date": "2021-01-13"
+     },
+     {
+         "name": "Tamil Thai Pongdal Day",
+         "date": "2021-01-14"
+     },
+     {
+         "name": "National Bagel Day",
+         "date": "2021-01-15"
+     },
+     {
+         "name": "Signing of the Peace Accords",
+         "date": "2021-01-16"
+     }
+ ]  
+}
