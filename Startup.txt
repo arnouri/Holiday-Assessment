@@ -1,0 +1,3 @@
+Holiday Management
+===================
+There are 7 holidays stored in the system.

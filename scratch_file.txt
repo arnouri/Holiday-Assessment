@@ -1,0 +1,25 @@
+#attempted to make a function to get dates organized by months
+
+# def scrape(body):
+#     jan = body.find('tr', attrs={'id':"hol_jan"})
+#     feb = body.find('tr', attrs={'id':"hol_feb"})
+#     mar = body.find('tr', attrs={'id':"hol_mar"})
+#     apr = body.find('tr', attrs={'id':"hol_apr"})
+#     may = body.find('tr', attrs={'id':"hol_may"})
+#     jun = body.find('tr', attrs={'id':"hol_jun"})
+#     jul = body.find('tr', attrs={'id':"hol_jul"})
+#     aug = body.find('tr', attrs={'id':"hol_aug"})
+#     sep = body.find('tr', attrs={'id':"hol_sep"})
+#     oct = body.find('tr', attrs={'id':"hol_oct"})
+#     nov = body.find('tr', attrs={'id':"hol_nov"})
+#     dec = body.find('tr', attrs={'id':"hol_dec"})
+#     months = [jan, feb, mar, apr, may, jun, jul, aug, sep, oct, nov, dec]
+#     months2 = iter(months)
+#     for i in months:
+#         for row in i.find_next_siblings('tr'):
+#             if row.get_text(strip=True) == (next(months2)).get_text(strip=True):
+#                 print('poop')
+#                 break
+#             date = row.find('th', attrs={'class':'nw'}).get_text()
+#             print(date)
+# scrape(body)
